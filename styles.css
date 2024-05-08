@@ -1,0 +1,170 @@
+/* resizing html here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* color variables here */
+:root{
+    --purple-box:#4801FD;
+    --pink-box:#FF00CD;
+    --akua-blue-box:#00D7C0;
+    --sky-blue-box:#00B6FC;
+    --green-box: #00A96E;
+    --yellow-box:#FFBE02;
+    --fade-pink-box:#FF5560;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+/* css for color */
+.color-1{
+    background-color: var(--purple-box);
+}
+.color-2{
+    background-color: var(--pink-box);
+}
+.color-3{
+    background-color: var(--akua-blue-box);
+}
+.color-4{
+    background-color: var(--sky-blue-box);
+}
+.color-5{
+    background-color: var(--green-box);
+}
+.color-6{
+    background-color: var(--yellow-box);
+}
+.color-7{
+    background-color: var(--fade-pink-box);
+}
+
+/* css for fonts */
+.font-color-white{
+    color: var(--white-color);
+}
+
+/* css for whole chat box */
+.chat-box{
+    width: 70%;
+    height: 70%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* left side chats css */
+.left-box{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+.left-chat{
+    width: 100%;
+    height: fit-content;
+}
+
+/* right side chats css */
+.right-box{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+.right-chat{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* left chat corner css */
+.triangle-1{
+    position: absolute ;
+    top: 28px;
+    left: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid var(--purple-box);
+}
+.triangle-2{
+    position: absolute ;
+    top: 28px;
+    left: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid var(--pink-box);
+}
+.triangle-3{
+    position: absolute ;
+    top: 28px;
+    left: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid var(--akua-blue-box);
+}
+
+/* right chat corner css */
+.triangle-4{
+    position: absolute ;
+    top: 28px;
+    right: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-left: 30px solid var(--sky-blue-box);
+}
+.triangle-5{
+    position: absolute ;
+    top: 28px;
+    right: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-left: 30px solid var(--green-box);
+}
+.triangle-6{
+    position: absolute ;
+    top: 28px;
+    right: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-left: 30px solid var(--yellow-box);
+}
+.triangle-7{
+    position: absolute ;
+    top: 28px;
+    right: -14px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-left: 30px solid var(--fade-pink-box);
+}
+
+
+/* responive */
+
+@media screen {
+}
